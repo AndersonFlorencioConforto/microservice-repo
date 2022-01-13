@@ -5,4 +5,4 @@ spring:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3307/db_fornecedor?createDatabaseIfNotExist=true&serverTimezone=UTC
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
